@@ -174,19 +174,12 @@ h2 {
 	margin-top: 30px;
 	
 }
+
 .gallery-image  {
 	display: inline-block;
 	width: 115px;
 	height: 110px;
 
-}
-
-.image-gallery {
-	width: 592px;
-	position: relative;
-	left: -80px;
-
-	
 }
 
 .item-name {
@@ -195,25 +188,33 @@ h2 {
 	font-size: 14px;
 	font-family: Verdana;
 }
-ß
 
-#contain-email-sign-up {
-	float: left;
-	margin: 10px;
-	width: 300px;
+#image-gallery {
+	position: absolute;
+	left: -36px;
+	width: 500px; 
+
+}
+
+
+
+
+/*form and map*/
+
+#center {
+	position: relative;
+	left: 500px;
 }
 
 #map {
-	float: right;
-	margin: 10px;
-	width: 300px;
+	display: inline-block;
+	margin-top: 280px;
 
 }
 
-
-#form-field {
+#contain-email-sign-up {
 	display: inline-block;
-
+	
 }
 
 #form-field input {
